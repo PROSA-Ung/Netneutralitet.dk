@@ -1,0 +1,31 @@
+body {
+  width: 100%;
+  font-size: 16px;
+}
+
+#main {
+  width: 960px;
+  margin: auto;
+}
+
+#forklaring, #videoer, #blog, #twitter {
+  float: left;
+  height: 400px;
+}
+
+#forklaring {
+  width: 260px;
+  text-align: justify;
+}
+
+#videoer {
+  width: 700px;
+}
+
+#blog {
+  width: 70%;
+}
+
+#twitter {
+  width: 30%;
+}

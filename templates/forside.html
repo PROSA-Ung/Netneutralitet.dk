@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block base_content %}
+
+<div id="forklaring">
+  {% placeholder forklaring %}
+</div>
+<div id="videoer">
+  {% placeholder videoer %}
+</div>
+<div id="blog">
+  {% placeholder blog %}
+</div>
+<div id="twitter">
+  {% placeholder twitter %}
+</div>
+
+{% endblock %}
